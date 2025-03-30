@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-100: oklch(98% 0.001 106.423);
+  --color-base-200: oklch(97% 0.001 106.424);
+  --color-base-300: oklch(92% 0.003 48.717);
+  --color-base-content: oklch(21% 0.006 56.043);
+  --color-primary: oklch(76% 0.188 70.08);
+  --color-primary-content: oklch(14% 0.004 49.25);
+  --color-secondary: oklch(82% 0.111 230.318);
+  --color-secondary-content: oklch(29% 0.066 243.157);
+  --color-accent: oklch(82% 0.111 230.318);
+  --color-accent-content: oklch(29% 0.066 243.157);
+  --color-neutral: oklch(37% 0.044 257.287);
+  --color-neutral-content: oklch(98% 0.001 106.423);
+  --color-info: oklch(70% 0.165 254.624);
+  --color-info-content: oklch(28% 0.091 267.935);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(26% 0.051 172.552);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(27% 0.077 45.635);
+  --color-error: oklch(70% 0.191 22.216);
+  --color-error-content: oklch(25% 0.092 26.042);
+}
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+}
+
+* {
+  @apply font-poppins;
+  scroll-behavior: smooth;
+}
