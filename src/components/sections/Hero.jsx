@@ -31,7 +31,7 @@ const Hero = () => {
             que cuida da saúde mental e do bem-estar de maneira integral.
           </p>
         </div>
-        <a href="https://wa.me/5542998154193" className="flex items-center gap-1 bg-success text-success-content p-2 px-4 rounded-lg outline outline-success hover:bg-success-content hover:text-success hover:outline-success-content">
+        <a href={`https://wa.me/${import.meta.env.VITE_APP_PHONE}`} target="_blank" className="flex items-center gap-1 bg-success text-success-content p-2 px-4 rounded-lg outline outline-success hover:bg-success-content hover:text-success hover:outline-success-content">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
