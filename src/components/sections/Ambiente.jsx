@@ -11,28 +11,28 @@ const Ambiente = () => {
       <div className="flex flex-col text-secondary-content max-w-[80dvw] sm:max-w-xl md:max-w-2xl lg:max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           <RotativeCarousel imgPaths={['/carousel/1/img_1.jpg', '/carousel/1/img_2.jpg', '/carousel/1/img_3.jpg']} />
-          <p className="text-center p-8">
+          <p className="text-center text-2xl p-8">
             <span className="font-bold">Lazer e conforto:</span> Espaços de
             convivência, piscina, salão de TV com canais de séries e filmes.
           </p>
         </div>
         <div className="flex flex-col md:flex-row-reverse items-center">
         <RotativeCarousel imgPaths={['/carousel/2/img_1.jpg', '/carousel/2/img_2.jpg', '/carousel/2/img_3.jpg']} />
-          <p className="text-center p-8">
+          <p className="text-center text-2xl p-8">
             <span className="font-bold">Alimentação Balanceada:</span> Refeições
             nutritivas para manter a saúde e o equilíbrio dos pacientes.
           </p>
         </div>
         <div className="flex flex-col md:flex-row items-center">
         <RotativeCarousel imgPaths={['/carousel/3/img_1.jpg', '/carousel/3/img_2.jpg']} />
-          <p className="text-center p-8">
+          <p className="text-center text-2xl p-8">
             <span className="font-bold">Quartos Confortáveis:</span> Opções
             coletivas, privativas e Prime, com ar-condicionado e hidromassagem.
           </p>
         </div>
         <div className="flex flex-col md:flex-row-reverse items-center">
         <RotativeCarousel imgPaths={['/carousel/4/img_1.jpg', '/carousel/4/img_2.jpg']} />
-          <p className="text-center p-8">
+          <p className="text-center text-2xl p-8">
             <span className="font-bold">Monitoramento 24h:</span> Câmeras e
             equipe sempre disponível e suporte contínuo para qualquer
             necessidade.

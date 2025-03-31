@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { IMaskInput } from "react-imask";
 
 const Contato = () => {
   const formRef = useRef();
@@ -79,7 +80,7 @@ const Contato = () => {
               >
                 Telefone
               </label>
-              <input
+              <IMaskInput
                 id="phone"
                 type="text"
                 name="phone"
@@ -87,6 +88,7 @@ const Contato = () => {
                 onChange={handleChange}
                 required
                 placeholder="(xx)xxxxx-xxxx"
+                mask="(99)99999-9999"
                 className="text-sm w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100"
               />
               <label

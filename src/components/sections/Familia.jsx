@@ -23,7 +23,7 @@ const Familia = () => {
               />
             </svg>
           </div>
-          <p className="col-span-2 text-center p-8">
+          <p className="col-span-2 text-center text-2xl p-8">
             <span className="font-bold">Ligações Semanais:</span> Comunicação
             frequente para apoio emocional.
           </p>
@@ -43,7 +43,7 @@ const Familia = () => {
               <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
             </svg>
           </div>
-          <p className="col-span-2 text-center p-8">
+          <p className="col-span-2 text-center text-2xl p-8">
             <span className="font-bold">Visitas Quinzenais:</span> Para
             fortalecer o vínculo familiar durante o tratamento.
           </p>
@@ -63,7 +63,7 @@ const Familia = () => {
               <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" />
             </svg>
           </div>
-          <p className="col-span-2 text-center p-8">
+          <p className="col-span-2 text-center text-2xl p-8">
             <span className="font-bold">Registro Diário:</span> Fotos e vídeos
             diários do progresso do paciente.
           </p>

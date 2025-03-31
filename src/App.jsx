@@ -8,7 +8,6 @@ import Tratamento from "./components/sections/Tratamento"
 const App = () => {
   return (
     <>
-        {console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)}
         <Header/>
         <Hero/>
         <Tratamento/>
